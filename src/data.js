@@ -43,15 +43,15 @@ export const skills = [
   },
   {
     title: "JavaScript",
-    link: "https://www.freecodecamp.org/certification/carlosfelipe51/responsive-web-design"
+    link: ""
   },
   {
     title: "React",
-    link: "https://www.freecodecamp.org/certification/carlosfelipe51/responsive-web-design"
+    link: ""
   },
   {
     title: "Express",
-    link: "https://www.freecodecamp.org/certification/carlosfelipe51/responsive-web-design"
+    link: ""
   }
 
   
