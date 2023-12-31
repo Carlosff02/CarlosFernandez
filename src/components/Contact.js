@@ -18,10 +18,10 @@ export default function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          alert("Su correo ha sido enviado con éxito");
         },
         (error) => {
-          console.log(error.text);
+          alert(error.text);
         }
       );
   };
