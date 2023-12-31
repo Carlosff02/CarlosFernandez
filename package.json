@@ -5,11 +5,12 @@
   "homepage": "https://Carlosff02/CarlosFernandez/build",
   "dependencies": {
     "@craco/craco": "^5.9.0",
+    "@emailjs/browser": "^3.11.0",
     "@heroicons/react": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^1.1.5",
-    "react-google-maps": "*"
+    "react-google-maps": "*",
+    "react-scripts": "^1.1.5"
   },
   "scripts": {
     "start": "craco start",
