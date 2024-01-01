@@ -43,7 +43,7 @@ export const skills = [
   },
   {
     title: "JavaScript",
-    link: ""
+    link: "/404"
   },
   {
     title: "React",
