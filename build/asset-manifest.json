@@ -1,6 +1,13 @@
 {
-  "main.css": "static/css/main.e71a8680.css",
-  "main.css.map": "static/css/main.e71a8680.css.map",
-  "main.js": "static/js/main.127bed63.js",
-  "main.js.map": "static/js/main.127bed63.js.map"
+  "main.css": "/CarlosFernandez/build/static/css/main.992558c9.chunk.css",
+  "main.js": "/CarlosFernandez/build/static/js/main.a5dea853.chunk.js",
+  "main.js.map": "/CarlosFernandez/build/static/js/main.a5dea853.chunk.js.map",
+  "runtime~main.js": "/CarlosFernandez/build/static/js/runtime~main.0e575f25.js",
+  "runtime~main.js.map": "/CarlosFernandez/build/static/js/runtime~main.0e575f25.js.map",
+  "static/js/2.912afeff.chunk.js": "/CarlosFernandez/build/static/js/2.912afeff.chunk.js",
+  "static/js/2.912afeff.chunk.js.map": "/CarlosFernandez/build/static/js/2.912afeff.chunk.js.map",
+  "index.html": "/CarlosFernandez/build/index.html",
+  "precache-manifest.6861b348cfddce10d5febedc524e16e0.js": "/CarlosFernandez/build/precache-manifest.6861b348cfddce10d5febedc524e16e0.js",
+  "service-worker.js": "/CarlosFernandez/build/service-worker.js",
+  "static/css/main.992558c9.chunk.css.map": "/CarlosFernandez/build/static/css/main.992558c9.chunk.css.map"
 }
