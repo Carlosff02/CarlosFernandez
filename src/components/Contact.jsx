@@ -1,6 +1,4 @@
-// src/components/Contact.js
-
-import React, { useRef } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function Contact() {
@@ -17,7 +15,7 @@ export default function Contact() {
         "iJT2BdjekCxbjRMBG"
       )
       .then(
-        (result) => {
+        () => {
           alert("Su correo ha sido enviado con éxito");
         },
         (error) => {
@@ -34,10 +32,8 @@ export default function Contact() {
             width="100%"
             height="100%"
             title="map"
+            
             className="absolute inset-0"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.453303351256!2d-76.97812662489585!3d-12.137742066312732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b87064befe7b%3A0xb3c67d7f3675865d!2sJir%C3%B3n%20Cerro%20Verde%20449%2C%20Lima%2015803!5e0!3m2!1ses!2spe!4v1703889713619!5m2!1ses!2spe"
           />
@@ -46,15 +42,15 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 Email
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <p className="text-indigo-400 leading-relaxed">
                 carlosfelipefdezfalcon@gmail.com
-              </a>
+              </p>
 
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 Número de Teléfono
               </h2>
 
-              <a href="https://wa.link/uxe566" target="_blank">
+              <a href="https://wa.link/uxe566" target="_blank" rel="noopener noreferrer">
                 <p className="leading-relaxed hover:tex-gray-700">
                   +51993348503
                 </p>

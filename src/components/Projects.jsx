@@ -1,9 +1,5 @@
-// src/components/Projects.js
-
 import { CodeIcon } from "@heroicons/react/solid";
-import React from "react";
 import { projects } from "../data";
-import '../stylesheets/Project.css'
 
 export default function Projects() {
 
@@ -23,7 +19,7 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4" target="_blank">
+              className="sm:w-1/2 w-100 p-4" rel="noopener noreferrer" target="_blank">
               <div className="flex relative">
                 <img
                   alt="gallery"
